@@ -1,0 +1,28 @@
+name: SmudgeMarket
+main: net.smudgecraft.marwzoor.SmudgeMarket
+version: 2.0
+commands:
+    sm:
+        usage: /sm <args>
+        description: Setting markets.
+    buy:
+        usage: /buy <item> <amount>
+        description: Buy items.
+    sell:
+        usage: /sell <item> <amount>
+        description: Sell items.
+    price:
+        usage: /price <item>
+        description: Get sell and buy price of items.
+    market:
+        usage: /market <args>
+        description: User commands for SmudgeMarket
+    sellhand:
+        usage: /sellhand <amount>
+        description: Sell a specified amount of the itemtype which you keep in your hand.
+    setsellprice:
+        usage: /setsellprice <item> <price>
+        description: Set the specified items sellprice.
+    setbuyprice:
+        usage: /setbuyprice <item> <price>
+        description: Set teh specified items buyprice.
