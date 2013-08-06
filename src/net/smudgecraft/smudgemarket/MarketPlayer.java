@@ -1,4 +1,4 @@
-package net.smudgecraft.marwzoor;
+package net.smudgecraft.smudgemarket;
 
 import org.bukkit.entity.Player;
 
@@ -31,4 +31,12 @@ public class MarketPlayer
 	{
 		this.market=null;
 	}
+	
+	public boolean isInMarket()
+	{
+		if(this.market==null)
+			return false;
+		return true;
+	}
+	
 }

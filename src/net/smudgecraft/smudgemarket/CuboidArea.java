@@ -1,4 +1,4 @@
-package net.smudgecraft.marwzoor;
+package net.smudgecraft.smudgemarket;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

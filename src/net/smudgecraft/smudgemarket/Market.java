@@ -1,4 +1,4 @@
-package net.smudgecraft.marwzoor;
+package net.smudgecraft.smudgemarket;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -277,4 +277,10 @@ public class Market extends CuboidArea
 	{
 		this.items=items;
 	}
+	
+	public void addMarketItem(MarketItem mi)
+	{
+		this.items.add(mi);
+	}
+	
 }
