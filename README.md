@@ -1,1 +1,3 @@
-Welcome to SmudgeMarket Repo!
+SmudgeMarket
+============
+Welcome to the SmudgeMarket Repo!
